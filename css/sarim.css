@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+* {
+  text-align: center;
+}
+
+body { 
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 2rem;
+  margin: 0px;
+}
+
+.navigation { 
+  background-color: rgb(0, 119, 255);
+  border-radius: 0px 0px 0px 50px;
+  box-shadow: 0 1px 25px rgb(146 161 176 / 15%);
+  height: auto;
+}
+.btn-bottom{
+  color: white;
+  font-size: 1.0rem;
+  width: auto;
+  background-color: rgb(0, 119, 255);
+  padding: 0.25rem 1rem;
+  margin-left: 80vw;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Noto Sans', sans-serif;
+  box-shadow: 0 1px 10px rgb(146 161 176 / 100%);
+}
+a.bottom{
+  color: white;
+  text-decoration: none;
+}
+.container{
+  max-width: 90vw;
+  margin: auto;
+
+}
+h1.heading{ 
+    color: white;
+    margin-top: auto;
+    font-size: 3rem;
+}
+.gif{
+  max-width: 10rem;
+  max-height: 5rem;
+  margin-top: 5px;
+
+}
+section{ 
+  margin-bottom: 5vh;
+  max-width: 90vw;
+  margin: auto;
+ }
+p.meme-text, p.trailer-text{
+  font-size: 1.25rem;
+}
+p{
+  max-width: 32rem;
+  margin: auto;
+}
+ iframe{
+   margin: 1rem;
+}
+
+.qna{
+  padding: 1.5rem;
+}
+.answer{
+  font-size: 1rem;
+}
+.memes{
+  text-align: center;
+}
+
+.meme{
+  padding: 2rem;
+  margin: 1rem;
+  max-width: 25rem; max-height: 25rem;
+}
+.line{
+  background-color: black;
+  height: 1px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 50%;
+}
+.btn { 
+  color: white;
+  font-size: 1.5rem;
+  width: auto;
+  background-color: rgb(0, 119, 255);
+  padding: 0.25rem 1rem;
+  margin: 1rem;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Noto Sans', sans-serif;
+  box-shadow: 0 1px 10px rgb(146 161 176 / 100%);
+}
+
+.footer{
+  background-color: rgb(0, 119, 255);
+  margin-top: 5vh;
+  height: auto;
+  text-align: center;
+  color: white;
+  border-radius: 0 50px 0 0;
+  box-shadow: 0 -1px 30px rgb(146 161 176 / 100%);
+}
+.footer-list { 
+  list-style: none;
+  padding: 0px;
+  margin: auto;
+}
+
+.footer-list li {
+  display: inline-block;
+  font-size: 2rem;
+  margin: 0.75rem;
+}
+.footer-header{
+  padding-top: 3vh;
+  font-size: 2rem;
+}
+.fab { 
+  color: white;
+  margin: 10px;
+}
+.fa {
+  color: white;
+  font-size: 1.5rem;
+}
+
+
+@media screen and (max-width: 550px) {
+  .meme{
+    width: 75vw;
+    height: auto;
+    padding: 0;
+  }
+  .footer-header{
+    font-size: 1.5rem;
+  }
+  .btn{
+    font-size: 1rem;
+  }
+  .btn-bottom{
+    margin-left: 50vw;
+  }
+}
