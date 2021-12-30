@@ -1,0 +1,146 @@
+/**********************tag attribute*******************************/
+
+html{
+
+  background-image: linear-gradient(#009DAE,#C2FFF9);
+  background-image: url('https://steamuserimages-a.akamaihd.net/ugc/951857668148675039/DEE6B85887DB25E1C531CC813CE37D2231936DD8/?imw=116&imh=65&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity:1;
+  color: white;
+
+
+}
+
+body{
+  margin: 0;
+
+}
+
+
+p{
+  font-family: 'Merriweather', serif;
+}
+
+/************************class attribute**************************/
+
+.hr{
+  border-top: 10px dotted grey;
+  width: 10%;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.topcontainer{
+
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+
+}
+
+.round-img{
+  border-radius: 50%;
+
+
+}
+.imgcontainer{
+  text-align: center;
+}
+
+
+.middlecontainer{
+
+
+
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.bottomcontainer{
+
+  padding-left: 10px;
+
+}
+.head{
+  text-align: center;
+  font-size: 100px;
+  font-family: 'Sacramento', cursive;
+  margin-bottom: 0;
+  margin: 0;
+}
+
+.gif{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+
+}
+
+a:link {
+  color: #94DAFF;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color:#94DAFF;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #94DAFF;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #94DAFF;
+  background-color: transparent;
+  text-decoration: underline;
+
+}
+
+.Rickroll{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: pink;
+  color: white;
+}
+.fa-github{
+  background: blue;
+  color: white;
+
+}
+
+.fa-discord{
+  background: blue;
+  color: white;
+
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+/******************************id attribute**************************/
